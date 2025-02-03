@@ -32,6 +32,9 @@
     #skillsMainContainer, #aboutMainContainer, #contactMainContainer{
         padding-top: 4vh;
     }
+    /* #briefPersonalDetail{
+        margin-bottom: 0;
+    } */
 }
 @media(max-width: 1080px) {
     #nameSep{
@@ -44,7 +47,7 @@
 
 @media(max-width: 800px){
     #shortHeroIntro{
-        margin-left: 1.2rem;
+        margin-left: 8vh;
         padding-top: 50vh;
     }
 }
@@ -155,8 +158,12 @@
     #aboutDetails{
         flex-direction: column;
     }
+    #personalPicture{
+        display: flex;
+        justify-content: center;
+    }
     #aboutProfilePic{
-        width: 100%;
+        width: 70vw;
         height: auto;
     }
     #personalDetails{
@@ -192,14 +199,16 @@
     #imgWithDesc{
         flex-direction: column;
     }
+    .skillsImage{
+        width: 70vw;
+        height: auto;
+    }
     #slideshowImage{
         width: 100%;
         display: flex;
-        align-items:end;
-        justify-content: space-around;
-    }
-    #slideshowImage img{
-        width: 90%;
+        flex-direction: row;
+        align-items: end;
+        justify-content: space-evenly;
     }
     #prev{
         margin-right: 1.5rem;
@@ -215,6 +224,21 @@
     #skillsContentContainer, #aboutContentContainer{
         margin-left: 1.5rem;
         margin-right: 1.5rem;
+    }
+    #heroIntroName, #hero p{
+        scale: 0.9;
+    }
+    #shortHeroIntro{
+        margin-left: 1vh;
+    }
+}
+@media(max-width: 470px){
+    #heroIntroName, #hero p{
+        scale: 0.8;
+    }
+    #shortHeroIntro{
+        margin-left: -4vh;
+        padding-top: 50vh;
     }
 }
 @media(max-width: 550px){
@@ -236,6 +260,15 @@
         margin-left: 1rem;
         margin-right: 1rem;
     }
+    #aboutProfilePic{
+        width: 75vw;
+        height: auto;
+    }
 }
 /* Skill Section Res End */
-/* Contact Section Res Start */
+
+@media(min-height: 750px){
+    #briefPersonalDetail{
+        margin-bottom: 4rem;
+    }
+}

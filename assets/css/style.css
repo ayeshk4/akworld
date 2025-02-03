@@ -68,28 +68,34 @@ body{
 
 #main-side-bar{
     background-color: #2B2F3B;
-    height: 100vh;
+    height: 110vh;
     width: 300px;
     float: left;
     position: fixed;
-    display: block;
+    display: block flex;
+    flex-direction: column;
     z-index: 1;
+    transition: 0.4s;
+}
+#briefPersonalDetail{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin-bottom: 3vh;
 }
 #circledlogo{
     width: 100%;
-    margin-top: 2.65rem;
+    margin-top: 6vh;
 }
 #aklogo{
     width: 150px;
     height: 150px;
-    /* display: flex; */
     border: #3231c2 2px solid;
 }
 .center{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 25px;
     border-radius: 100px;
 }
 #nameforlogo{
@@ -101,8 +107,6 @@ body{
     text-align: left;
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 60px;
-    margin-top: 60px;
     display: flex;
     flex-direction: column;
     gap: 9vh;
@@ -123,8 +127,6 @@ body{
     display: flex;
     flex-direction: row;
     gap: 25px;
-    margin-top: 35px;
-    margin-bottom: 35px;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -138,14 +140,15 @@ body{
     width: 300px;
     display: flex;
     justify-content: center;
-    /* margin-top: 7rem; */
     background-color: #26272E;
     padding: 10px;
     color: rgba(245, 245, 245, 0.783);
+    padding-bottom: 10vh;
 }
 #ccmsg{
     position: fixed;
     bottom: 0;
+
 }
 /* Side Nav Bar Styles End */
 
