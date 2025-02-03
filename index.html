@@ -394,9 +394,11 @@
                 
             </div>
         </div>
+        
+        <div id="ccmsgEnd">
+            <label for="copyrightMessageEnd"><footer id="copyrightMessageEnd">© 2025 AK | Ayesh Kulathilake</footer></label>
+        </div>
     </section>
-
-
 
 
     <script src="./assets/js/script.js"></script>
@@ -404,7 +406,9 @@
     <script src="./assets/js/sidebarHamburger.js"></script>
     <script>
         let ccmsg = document.getElementById("copyrightMessage");
+        let ccmsgEnd = document.getElementById("copyrightMessageEnd");
         ccmsg.textContent=`© ${new Date().getFullYear()} AK. All rights reserved.`;
+        ccmsgEnd.textContent=`© ${new Date().getFullYear()} AK | Ayesh Kulathilake`;
     </script>
 </body>
 </html>

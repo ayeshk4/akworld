@@ -32,9 +32,9 @@
     #skillsMainContainer, #aboutMainContainer, #contactMainContainer{
         padding-top: 4vh;
     }
-    /* #briefPersonalDetail{
-        margin-bottom: 0;
-    } */
+    #copyrightMessageEnd{
+        margin-left: 0;
+    }
 }
 @media(max-width: 1080px) {
     #nameSep{

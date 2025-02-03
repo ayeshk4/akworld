@@ -148,7 +148,19 @@ body{
 #ccmsg{
     position: fixed;
     bottom: 0;
-
+}
+#copyrightMessageEnd{
+    width: auto;
+    display: flex;
+    margin-left: 300px;
+    justify-content: center;
+    background-color: #313139;
+    padding: 0.5vh;
+    color: rgba(245, 245, 245, 0.783);
+}
+#ccmsg{
+    position: fixed;
+    bottom: 0;
 }
 /* Side Nav Bar Styles End */
 
