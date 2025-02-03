@@ -1,0 +1,123 @@
+#skillsMainContainer{
+    /* background-color: #2b2c34; */
+    background-image: url(../img/skillsbg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#skillsContentContainer{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+#skillsIntro{
+    margin-bottom: 4rem;
+}
+#skillsMainContainer{
+    padding-bottom: 5vh;
+}
+#skillsHeading:after {
+    width: 5.35rem;
+}
+
+
+#imageWeb{
+    display: block;
+}
+#imagePython{
+    display: none;
+}
+#imageMath{
+    display: none;
+}
+#imageGraphic{
+    display: none;
+}
+#imageEdit{
+    display: none;
+}
+
+#webdesc{
+    display: block;
+}
+#pydesc{
+    display: none;
+}
+#mathdesc{
+    display: none;
+}
+#graphicdesc{
+    display: none;
+}
+#editdesc{
+    display: none;
+}
+
+#imgWithDesc{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+}
+#slideshowImage{
+    margin-right: 1rem;
+}
+.skillsImage{
+    width: 500px;
+    box-shadow: 0px 0px 5px #4d4df4;
+    border-radius: 28px;
+    height: auto;
+}
+#slideshowDesc{
+    color: whitesmoke;
+}
+#slideshowDesc h1{
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: #4d4df4;
+}
+#slideshowDesc h2{
+    margin-top: 1.5rem;
+}
+#imageSlider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.skillDescList{
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+
+#pointedSkillSetMediumViewportSkills{
+    display: none;
+}
+
+.imageSlide{
+    background-color: #2B2F3B;
+    font-size: 1.5rem;
+    padding: 10px;
+    color: whitesmoke;
+    border: #4d4df4 2px solid;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.imageSlide:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 8px #4d4df4;
+    color: whitesmoke;
+    /* background-color: #4d4df4; */
+    background: linear-gradient(45deg, #1877F2, #4d4df4);
+    transform: scale(1.02);
+    transition: 0.5s ease-in-out;
+}
+
+/* Mobile Viewport */
+.slideshowChangeIconMobileViewport{
+    display: none;
+}
+#x{
+    display: flex;
+    justify-content: center;
+}

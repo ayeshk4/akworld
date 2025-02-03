@@ -1,0 +1,162 @@
+#contactMainContainer{
+    /* background-color: #26272E; */
+    background-image: url(../img/contactbg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 10vh;
+}
+#contactContentContainer{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    color: whitesmoke;
+}
+#contactHeading:after {
+    width: 8rem;
+}
+#contactDetails{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+}
+#contactDetails h1{
+    text-decoration: underline;
+    text-decoration-color: #4d4df4;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+#contactViaMySocials h1{
+    text-align: center;
+}
+#emailMeFormContainer{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+/* Social Icon Style Start */
+
+.socialLink a i{
+    font-size: 4rem;
+}
+.socialLink a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color: whitesmoke;
+    font-size: 24px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+.socialLink .facebook,.socialLink .instagram,.socialLink .github,.socialLink .linkedin,.socialLink .gmail,.socialLink .reddit{
+    padding: 2.8rem;
+}
+.socialLink .facebook:hover {
+    transform: scale(1.3) rotate(6deg);
+    box-shadow: 0 4px 25px rgba(24, 119, 242, 0.8);
+    background: linear-gradient(45deg, #1877F2, #00A3FF);
+}
+.socialLink .instagram:hover {
+    transform: scale(1.3) rotate(6deg);
+    box-shadow: 0 4px 25px rgba(244, 147, 51, 0.8);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+.socialLink .github:hover {
+    transform: scale(1.3) rotate(6deg);
+    box-shadow: 0 4px 25px rgba(15, 15, 15, 0.7);
+    background: linear-gradient(45deg, #212020, #0b0b0b);
+}
+.socialLink .linkedin:hover {
+    transform: scale(1.3) rotate(6deg);
+    box-shadow: 0 4px 25px rgba(24, 119, 242, 0.8);
+    background: linear-gradient(45deg, #1877F2, #0066c8);
+}
+.socialLink .reddit:hover {
+    transform: scale(1.3) rotate(6deg);
+    box-shadow: 0 4px 25px rgba(229, 83, 0, 0.8);
+    background: linear-gradient(45deg, #F78A10, #FF4500);
+}
+.socialLink .gmail:hover {
+    transform: scale(1.3) rotate(6deg);
+    box-shadow: 0 4px 25px rgba(24, 119, 242, 0.8);
+    background: conic-gradient(
+        /* #FBBC05 0deg 90deg,
+        #EA4335 90deg 180deg,
+        #4285F4 180deg 270deg,
+        #34A853 270deg 360deg */
+        #EA4335 0deg 90deg,
+        #4285F4 90deg 180deg,
+        #34A853 180deg 270deg,
+        #FBBC05 270deg 360deg
+    );
+}
+/* Social Icon Style End */
+
+
+#socialsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#socialLinkLeft, #socialLinkRight{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: space-around;
+}
+#contactViaEmail{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+#contactViaEmail #email, #contactViaEmail #name, #contactViaEmail textarea{
+    width: 98%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    background-color: whitesmoke;
+}
+#contactViaEmail input{
+    padding: 1rem;
+}
+#contactViaEmail textarea{
+    height: 20vh;
+    padding: 1rem;
+}
+#contactViaMySocials{
+    width: 50%;
+}
+#emailMeFormContainer label{
+    font-size: 1.1rem;
+}
+#msgSendBtnContainer{
+    display: flex;
+    justify-content: center;
+}
+#contactViaEmail #msgSendBtn{
+    cursor: pointer;
+    background-color: transparent;
+    color: #4d4df4;
+    border: #4d4df4 1px solid;
+    box-shadow: 0px 0px 5px #4d4df4;
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    width: 45%;
+    border-radius: 12px;
+    transition: 0.5s ease-in-out;
+}
+#contactViaEmail #msgSendBtn:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 8px #4d4df4;
+    color: whitesmoke;
+    /* background-color: #4d4df4; */
+    background: linear-gradient(45deg, #1877F2, #4d4df4);
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}

@@ -1,0 +1,241 @@
+/* Sidebar & Hero Section Res Start */
+@media(max-width: 1440px) {
+    #nameSep{
+        display: block;
+    }
+    #heroIntroName{
+        margin-bottom: 1.5rem;
+    }
+}
+@media(max-width: 1260px){
+    #shortHeroIntro{
+        padding-top: 50vh;
+    }
+}
+@media (max-width: 1200px) {
+    #main-side-bar {
+      transform: translateX(-100%);
+    }
+    .displayContentContainer{
+        margin-left: 0px;
+    }
+    #hamburger {
+      display: block; /* Show hamburger icon */
+    }
+    #nameSep{
+        display: none;
+    }
+    #menuIconBar{
+        background-color: #000;
+        display: block;
+    }
+    #skillsMainContainer, #aboutMainContainer, #contactMainContainer{
+        padding-top: 4vh;
+    }
+}
+@media(max-width: 1080px) {
+    #nameSep{
+        display: block;
+    }
+    #heroIntroName{
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media(max-width: 800px){
+    #shortHeroIntro{
+        margin-left: 1.2rem;
+        padding-top: 50vh;
+    }
+}
+@media(max-height: 750px){
+    #sidenavlinksdiv{
+        margin-top: 40px;
+        gap: 9vh;
+    }
+    #aklogo{
+        width: 120px;
+        height: 120px;
+    }
+    #nameforlogo{
+        font-size: 15px;
+    }
+}
+/* Sidebar & Hero Section Res End */
+/* About Section Res Start */
+@media(max-width: 1350px) {
+    #personalDetails{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media(max-width: 978px){
+    #aboutProfilePic{
+        width: 400px;
+        height: auto;
+    }
+    #personalDetails{
+        margin-bottom: 2rem;
+    }
+    #grabResumeText{
+        font-size: 1.8rem;
+    }
+    #myResumeButton{
+        padding: 1.2rem 1.6rem;
+        font-size: 1.3rem;
+    }
+    #slideshowDesc h1, #contactDetails h1{
+        font-size: 1.8rem;
+    }
+    #slideshowDesc h2{
+        font-size: 1.4rem;
+    }
+}
+@media(max-width: 855px){
+    #grabResumeContainer{
+        display: none;
+    }
+    #grabResumeContainerMobileViewport{
+        display: block;
+        margin-top: 2rem;
+    }
+    #personalDetails{
+        margin-bottom: 4rem;
+    }
+    #aboutProfilePic{
+        width: 350px;
+        height: auto;
+    }
+    #grabResumeText{
+        font-size: 2rem;
+    }
+
+    #contactDetails{
+        flex-direction: column;
+    }
+    #contactViaEmail, #contactViaMySocials{
+        width: 100%;
+        margin-bottom: 9vh;
+    }
+    #contactViaEmail{
+        margin-bottom: 11vh;
+    }
+    #socialsContainer{
+        margin-top: -1rem;
+    }
+    #contactViaEmail input, #contactViaEmail textarea{
+        width: 100%;
+    }
+    #contactMainContainer{
+        padding-bottom: 4vh;
+    }
+    .socialLink a i{
+        font-size: 5.5rem;
+    }
+}
+@media(max-width: 800px){
+    #socialsContainer{
+        justify-content: space-around;
+    }
+}
+
+@media(max-width: 760px){
+    #aboutProfilePic{
+        width: 350px;
+        height: auto;
+    }
+}
+@media(max-width: 700px){
+    #grabResumeContainerMobileViewport{
+        display: none;
+    }
+    #grabResumeContainer{
+        display: block;
+    }
+    #aboutDetails{
+        flex-direction: column;
+    }
+    #aboutProfilePic{
+        width: 100%;
+        height: auto;
+    }
+    #personalDetails{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+@media(max-width: 585px){
+    #personalDetails{
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    #resumeForDesktopViewport p{
+        margin-bottom: 1rem;
+    }
+    #personalDetails{
+        margin-bottom: 3.5rem;
+    }
+    #myResumeButton{
+        padding: 1.4rem 1.8rem;
+        font-size: 1.4rem;
+    }
+}
+/* About Section Res End */
+/* Skill Section Res Start */
+@media(max-width: 1000px){
+    .slideshowChangeIconMobileViewport{
+        display: block;
+    }
+    #slideshowChangeIcon{
+        display: none;
+    }
+    #imgWithDesc{
+        flex-direction: column;
+    }
+    #slideshowImage{
+        width: 100%;
+        display: flex;
+        align-items:end;
+        justify-content: space-around;
+    }
+    #slideshowImage img{
+        width: 90%;
+    }
+    #prev{
+        margin-right: 1.5rem;
+    }
+    #next{
+        margin-left: 1.5rem;
+    }
+    #imageSliderMobileViewport{
+        padding-bottom: 2rem;
+    }
+}
+@media(max-width: 600px){
+    #skillsContentContainer, #aboutContentContainer{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}
+@media(max-width: 550px){
+    .imageSlide{
+        padding: 8px;
+    }
+}
+@media(max-width: 500px){
+    .imageSlide{
+        padding: 6px;
+    }
+    #prev{
+        margin-right: 1rem;
+    }
+    #next{
+        margin-left: 1rem;
+    }
+    #skillsContentContainer{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+/* Skill Section Res End */
+/* Contact Section Res Start */

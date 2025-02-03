@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #26272E;
+    font-family: "Istok Web", serif;
+}
+
+.sectionHeading{
+    color: whitesmoke;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 2.2rem;
+}
+.sectionHeading:after {
+    content: '';
+    /* position: absolute; */
+    border-radius: 10px;
+    display: block;
+    height: 4px;
+    background-color: transparent;
+    border: #4d4df4 1.5px solid;
+}
+
+/* Side Nav Bar Styles Start */
+#menuIconBar{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 9.5vh;
+    background-color: transparent;
+}
+#menuIconBar img{
+    width: auto;
+    height: 8vh;
+    margin-top: 0.75vh;
+    margin-left: 1.5rem;
+    border-radius: 100px;
+}
+#hamburger, #hamburgerClose{
+    color: whitesmoke;
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-align: right;
+    margin-right: 1.5rem;
+    display: none;
+}
+#hamburgerMenu, #hamburgerCloseMenu{
+    background-color: transparent;
+    border: #4d4df4 2px solid;
+    border-radius: 100px;
+    padding: 4px;
+    height: 5vh;
+    width: auto;
+    margin-top: 2.25vh;
+}
+#hamburgerCloseMenu{
+    padding: 0px;
+}
+
+#main-side-bar{
+    background-color: #2B2F3B;
+    height: 100vh;
+    width: 300px;
+    float: left;
+    position: fixed;
+    display: block;
+    z-index: 1;
+}
+#circledlogo{
+    width: 100%;
+    margin-top: 2.65rem;
+}
+#aklogo{
+    width: 150px;
+    height: 150px;
+    /* display: flex; */
+    border: #3231c2 2px solid;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border-radius: 100px;
+}
+#nameforlogo{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 17px;
+}
+#sidenavlinksdiv{
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 9vh;
+}
+#sidenavlinksdiv svg{
+    margin-right: 10px;
+}
+#sidenavlinksdiv a{
+    color: whitesmoke;
+    transition: color 0.2s ease-out;
+    text-decoration: none;
+}
+#sidenavlinksdiv a:hover{
+    color: #4d4df4;
+}
+#smallsocials{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#smallsocials .smallsocialslogo{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    border: black 1.5px solid;
+}
+#copyrightMessage{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 7rem; */
+    background-color: #26272E;
+    padding: 10px;
+    color: rgba(245, 245, 245, 0.783);
+}
+#ccmsg{
+    position: fixed;
+    bottom: 0;
+}
+/* Side Nav Bar Styles End */
+
+
+/* Hero Section Style Start */
+#hero{
+    height: 100vh;
+    background-image: url(../img/mainbgnew.jpg);
+    background-size: cover;
+    background-position: right;
+    color: whitesmoke;
+}
+.displayContentContainer{
+    margin-left: 300px;
+}
+#shortHeroIntro{
+    padding-top: 35vh;
+    margin-left: 10vh;
+}
+#heroIntroName{
+    font-size: 4rem;
+    font-weight: 800;
+}
+#nameSep{
+    display: none;
+}
+#hero p{
+    font-size: 2rem;
+}
+.typewriter {
+    font-weight: bold;
+    border-right: 2px solid #ffffff; /* Cursor effect */
+    white-space: nowrap;
+    overflow: hidden;
+    width: 12ch; /* Adjust based on word length */
+    font-weight: 400;
+    animation: blink 0.9s steps(2, start) infinite; /* Blinking animation */
+    padding-right: 2px;
+}
+@keyframes blink {
+    0%, 50% {
+        border-color: #ffffff;
+    }
+    50%, 100% {
+        border-color: transparent;
+    }
+}
